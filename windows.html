@@ -43,10 +43,13 @@
     <body>
         <img src="tried-to-create-the-windows-365-lock-screen-wallpaper-in-v0-npk5pya4y0191.png" id="background">
         <div id="time"></div>
+        <div id="date"></div>
 
         <script>
             const time = document.getElementById('time');
             var stops = false;
+
+            date.innerHTML
 
             function frame() {
                 const current_time = new Date()
@@ -63,7 +66,7 @@
 
             function jumpscare() {
                 stops = true;
-                
+
             }
 
             onmousedown = jumpscare
